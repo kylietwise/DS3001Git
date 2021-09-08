@@ -5,7 +5,7 @@ iris_data <- data.frame(iris)
 library(ggplot2)
 ggplot(iris_data, aes(x=Sepal.Length, y=Sepal.Width)) + geom_boxplot()
 
-# labels - claire
+# labels - claire - 
 library(ggplot2)
 ggplot(iris_data, aes(x=Sepal.Length, y=Sepal.Width)) + geom_boxplot() + xlab("Sepal Length") + ylab("Sepal Width")
 
